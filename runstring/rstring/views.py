@@ -7,7 +7,7 @@ import tempfile
 from .models import *
 import os
 import math
-os.environ['IMAGE_MAGICK_BINARY'] = r'C:\Program Files\ImageMagick-7.1.1-Q16\magick.exe'
+# os.environ['IMAGE_MAGICK_BINARY'] = r'C:\Program Files\ImageMagick-7.1.1-Q16\magick.exe'
 
 
 class RunStringAPIVew(APIView):
